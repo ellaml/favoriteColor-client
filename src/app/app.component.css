@@ -1,0 +1,28 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.colors-grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  justify-content: center;
+  align-self: center;
+}
+
+.top-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+.main-title {
+  font-size: 80px;
+  font-family: "Licorice";
+}
+
+.color-word {
+  font-size: 100px;
+}

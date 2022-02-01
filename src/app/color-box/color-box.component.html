@@ -1,0 +1,16 @@
+<div
+  class="color-box"
+  [ngStyle]="{ 'background-color': color.id }"
+  (click)="onUpdateColor(color)"
+>
+  <div class="progress-bar" [ngClass]="{ leading: color.votes === maxVotes }">
+    <div
+      class="progress"
+      [ngStyle]="{ width: 200 * (color.votes / maxVotes) + 'px' }"
+    >
+      <div class="votes">
+        {{ color.votes }}
+      </div>
+    </div>
+  </div>
+</div>
