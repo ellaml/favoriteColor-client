@@ -1,4 +1,4 @@
-# Favoritecolorapp
+# Favorite Color - Client
 
 ![Screenshot](screenshot.JPG?raw=true "Screenshot")
 
